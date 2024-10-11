@@ -1,0 +1,97 @@
+
+/* Chamada para Ação */
+#call-to-action {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+#call-to-action .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#call-to-action .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Seção de Introdução */
+#sobre-header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Seção de Missão */
+#missao {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+}
+#missao img {
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    #missao img {
+        width: 100%;
+    }
+}
+
+/* Seção de Visão */
+#visao {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Seção de Valores */
+#valores {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+#valores ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#valores ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+#valores img {
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    #valores img {
+        width: 100%;
+    }
+}
+
+/* Chamada para ação */
+#call-to-action-sobre {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+#call-to-action-sobre .btn {
+    background-color: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#call-to-action-sobre .btn:hover {
+    background-color: #f8f9fa;
+}

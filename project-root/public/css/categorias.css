@@ -1,0 +1,39 @@
+/* Cabeçalho da página de categorias */
+#categorias-header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Lista de categorias */
+#categorias-list {
+    padding: 50px 0;
+    background-color: #fff;
+}
+#categorias-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.categoria-item {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.categoria-item h3 {
+    margin-bottom: 10px;
+}
+.categoria-item p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.categoria-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

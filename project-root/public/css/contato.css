@@ -1,0 +1,68 @@
+
+
+/* Seção de cabeçalho de contato */
+#contato-header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Formulário de contato */
+#formulario-contato {
+    padding: 50px 0;
+    background-color: #fff;
+}
+#formulario-contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+#formulario-contato input, 
+#formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#formulario-contato .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#formulario-contato .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Informações de contato */
+#info-contato {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+#info-contato p {
+    font-size: 18px;
+}
+#social-links a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+#social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Mapa */
+#mapa-contato {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+#mapa-contato img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fórum de Empreendedorismo</title>
+    <link rel="stylesheet" href="css/entrar.css">
+</head>
+<body>
+    <!-- Seção de cabeçalho da página de login -->
+    <section id="login-header">
+        <div class="container">
+            <h1>Login</h1>
+            <p>Faça login para acessar sua conta no Fórum de Empreendedorismo</p>
+        </div>
+    </section>
+
+    <!-- Formulário de login -->
+    <section id="login-form">
+        <div class="container">
+            <form id="loginForm" action="#" method="post" onsubmit="processarLogin(); return false;">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Seu email" required><br><br>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" placeholder="Sua senha" required><br><br>
+
+                <button type="submit" class="btn">Entrar</button>
+            </form>
+
+            <p>Ainda não tem uma conta? <a href="/cadastrar">Cadastre-se aqui</a></p>
+        </div>
+    </section>
+</body>
+</html>

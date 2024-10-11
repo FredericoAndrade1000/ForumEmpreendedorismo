@@ -1,0 +1,48 @@
+
+/* Seção de cabeçalho da página de login */
+#login-header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Formulário de login */
+#login-form {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+#login-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#login-form .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#login-form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Link de cadastro */
+#login-form p {
+    margin-top: 20px;
+}
+#login-form a {
+    color: #007BFF;
+    text-decoration: none;
+}
+#login-form a:hover {
+    text-decoration: underline;
+}

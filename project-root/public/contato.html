@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Fórum de Empreendedorismo</title>
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+    <!-- Seção de cabeçalho da página de contato -->
+    <section id="contato-header">
+        <div class="container">
+            <h1>Entre em Contato Conosco</h1>
+            <p>Estamos aqui para responder suas perguntas e ajudar no que for necessário.</p>
+        </div>
+    </section>
+
+    <!-- Formulário de contato -->
+    <section id="formulario-contato">
+        <div class="container">
+            <h2>Envie uma Mensagem</h2>
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Seu email" required><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea><br><br>
+
+                <button onclick="enviarEmail()" class="btn">Enviar Mensagem</button>
+        </div>
+    </section>
+
+    <!-- Informações de contato -->
+    <section id="info-contato">
+        <div class="container">
+            <h2>Informações de Contato</h2>
+            <p><strong>Email:</strong> contato&commat;forumempreendedorismo.com</p>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123, São Paulo, SP</p>
+
+        </div>
+    </section>
+
+    <!-- Mapa (você pode substituir por um mapa real usando o Google Maps) -->
+    <section id="mapa-contato">
+        <div class="container">
+            <h2>Nossa Localização</h2>
+            <p>Insira aqui um mapa da localização do seu negócio ou evento.</p>
+            <img src="#" alt="Mapa da nossa localização">
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+
+/* Seção de cabeçalho da página de registro */
+#register-header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Formulário de registro */
+#register-form {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+#register-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+#register-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#register-form .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#register-form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Link para login */
+#register-form p {
+    margin-top: 20px;
+}
+#register-form a {
+    color: #007BFF;
+    text-decoration: none;
+}
+#register-form a:hover {
+    text-decoration: underline;
+}
+#interesses {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+

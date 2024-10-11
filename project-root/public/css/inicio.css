@@ -1,0 +1,51 @@
+
+/* Banner */
+#banner {
+    background-color: #007BFF;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+#banner .btn {
+    background-color: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#banner .btn:hover {
+    background-color: #f8f9fa;
+}
+
+/* Seção de Destaques */
+#destaques {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+#destaques .destaque-item {
+    margin: 20px;
+}
+
+#destaques img {
+    width: 700px;
+}
+
+/* Galeria de Categorias */
+#categorias {
+    padding: 50px 0;
+    text-align: center;
+}
+#categorias .categoria-item {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+}
+#categorias img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+

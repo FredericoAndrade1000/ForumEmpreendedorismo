@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Fórum de Empreendedorismo</title>
+    <link rel="stylesheet" href="css/cadastrar.css">
+</head>
+<body>
+    <!-- Seção de cabeçalho da página de registro -->
+    <section id="register-header">
+        <div class="container">
+            <h1>Cadastre-se no Fórum</h1>
+            <p>Crie sua conta para fazer parte da nossa comunidade</p>
+        </div>
+    </section>
+
+    <!-- Formulário de registro -->
+    <section id="register-form">
+        <div class="container">
+            <form id="registerForm" action="#" method="post" onsubmit="processarRegistro(); return false;">
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Seu email" required><br><br>
+
+                <label for="profissao">Profissão:</label><br>
+                <input type="text" id="profissao" name="profissao" placeholder="Sua profissão" required><br><br>
+
+                <label for="interesses">Interesses:</label><br>
+                <textarea id="interesses" name="interesses" placeholder="Seus interesses" required></textarea><br><br>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" placeholder="Sua senha" required><br><br>
+
+                <label for="confirmarSenha">Confirme sua senha:</label><br>
+                <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Confirme sua senha" required><br><br>
+
+                <button type="submit" class="btn">Criar Conta</button>
+            </form>
+
+            <p>Já tem uma conta? <a href="/entrar">Faça login aqui</a></p>
+        </div>
+    </section>
+
+</body>
+</html>
